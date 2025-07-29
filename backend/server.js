@@ -33,7 +33,9 @@ const pool = new Pool({
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://car-lease-frontend.onrender.com'
+    'https://car-lease-frontend.onrender.com',
+    'https://leaseasy.io',
+    'https://www.leaseasy.io'
   ]
 }));
 app.use(express.json());
