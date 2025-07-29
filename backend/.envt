@@ -1,0 +1,8 @@
+DB_USER=josuelegarda
+DB_HOST=localhost
+DB_NAME=car_lease_app
+DB_PASSWORD=
+DB_PORT=5432
+PORT=3001
+JWT_SECRET=carLease2025!MyCompanyStamp#Secret
+OPENAI_API_KEY=your_openai_api_key_here
