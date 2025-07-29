@@ -149,7 +149,8 @@ const CarLeaseQuiz = () => {
       custom_max_budget: formData.custom_max_budget ? Number(formData.custom_max_budget) : null,
     };
 
-    const response = await fetch('http://localhost:3001/api/generate-recommendations', {
+    const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+    const response = await fetch(`${API_BASE_URL}/api/generate-recommendations`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
