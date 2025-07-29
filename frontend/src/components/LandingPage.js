@@ -118,7 +118,7 @@ const LandingPage = ({ onStartQuiz }) => {
               <span className="block text-blue-600">Car Lease Deal</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Let our AI model match you with a car that matches your neeeds and budget with the best lease prices in your area
+              Let our AI model match you with a car that matches your needs and budget with the best lease prices in your area
 
 
             </p>
