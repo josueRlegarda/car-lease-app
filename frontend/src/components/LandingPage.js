@@ -51,7 +51,7 @@ const LandingPage = ({ onStartQuiz }) => {
             {/* Logo */}
             <div className="flex items-center space-x-2">
               <Car className="w-8 h-8 text-blue-600" />
-              <span className="text-xl font-bold text-gray-900">Leaseasy AI</span>
+              <span className="text-xl font-bold text-gray-900">Leaseasy</span>
             </div>
 
             {/* Desktop Navigation */}
@@ -267,7 +267,7 @@ const LandingPage = ({ onStartQuiz }) => {
             Ready to Lease Your Next Car?
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Replace shady salespersons with AI to decide on a car that works for you. Let us take control of the car lease negotiations so that you get the best deal. We are on your side!
+            Let us help you source your next lease! Track your lease application status at all times with live updates. Leave it to us to find the best lease deals!
           </p>
           <button 
             onClick={onStartQuiz}
@@ -286,7 +286,7 @@ const LandingPage = ({ onStartQuiz }) => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Car className="w-8 h-8 text-blue-400" />
-                <span className="text-xl font-bold">Leaseasy AI</span>
+                <span className="text-xl font-bold">Leaseasy</span>
               </div>
               <p className="text-gray-400">
                 Making car leasing simple, transparent, and stress-free.
@@ -322,7 +322,7 @@ const LandingPage = ({ onStartQuiz }) => {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Leaseasy AI. All rights reserved.</p>
+            <p>&copy; 2025 Leaseasy. All rights reserved.</p>
           </div>
         </div>
       </footer>
