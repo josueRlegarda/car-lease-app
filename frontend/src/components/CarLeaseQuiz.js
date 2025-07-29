@@ -131,10 +131,10 @@ const CarLeaseQuiz = () => {
     }
 
     try {
-      console.log('Submitting quiz and generating recommendations...');
+    console.log('Submitting quiz and generating recommendations...');
       
-      setIsLoading(true);
-      
+    setIsLoading(true);
+
     const suggestedRange = calculateSuggestedLeaseRange(
       Number(formData.yearly_income),
       Number(formData.credit_score),
@@ -150,6 +150,7 @@ const CarLeaseQuiz = () => {
     };
 
     const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+    console.log('Using API URL:', API_BASE_URL);
     const response = await fetch(`${API_BASE_URL}/api/generate-recommendations`, {
       method: 'POST',
       headers: {
